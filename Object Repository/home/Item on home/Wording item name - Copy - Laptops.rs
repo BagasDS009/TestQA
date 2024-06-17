@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn order</name>
+   <name>Wording item name - Copy - Laptops</name>
    <tag></tag>
-   <elementGuidId>85f8d1ec-d2be-4647-a008-4c72b7fe620b</elementGuidId>
+   <elementGuidId>d39e086d-75c1-4652-ac0a-7f3f71376e16</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@onclick=&quot;addToCart(1)&quot;]</value>
+         <value>//*[@class=&quot;card-block&quot;]/h4/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

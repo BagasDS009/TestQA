@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn order</name>
+   <name>Wording Berhasi Login welcom</name>
    <tag></tag>
-   <elementGuidId>85f8d1ec-d2be-4647-a008-4c72b7fe620b</elementGuidId>
+   <elementGuidId>dad0f9c6-1191-4297-b679-0a38f3727fd2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@onclick=&quot;addToCart(1)&quot;]</value>
+         <value>//*[@id=&quot;nameofuser&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
