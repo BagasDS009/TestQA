@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+addProduk,Chrome 126.0.0.0,,,17-06-2024 14:11:49,17-06-2024 14:12:24,35.449s,PASSED
+,,,,,,,
+Test Cases/add Produk/TC009,Chrome 126.0.0.0,,,17-06-2024 14:11:50,17-06-2024 14:12:24,34.077s,PASSED
+openBrowser(BaseUrl),Chrome 126.0.0.0,,,17-06-2024 14:11:53,17-06-2024 14:12:06,13.731s,PASSED
+"waitForElementVisible(findTestObject(""home/Login/login""), 0)",Chrome 126.0.0.0,,,17-06-2024 14:12:06,17-06-2024 14:12:10,3.532s,PASSED
+"click(findTestObject(""home/Login/login""))",Chrome 126.0.0.0,,,17-06-2024 14:12:10,17-06-2024 14:12:10,0.592s,PASSED
+"verifyElementText(findTestObject(""home/Login/Wording login""), wordinglogin)",Chrome 126.0.0.0,,,17-06-2024 14:12:10,17-06-2024 14:12:11,0.533s,PASSED
+"sendKeys(findTestObject(""home/Login/login - username""), ""123"")",Chrome 126.0.0.0,,,17-06-2024 14:12:11,17-06-2024 14:12:11,0.577s,PASSED
+"sendKeys(findTestObject(""home/Login/login - pass""), ""123"")",Chrome 126.0.0.0,,,17-06-2024 14:12:11,17-06-2024 14:12:12,0.507s,PASSED
+"click(findTestObject(""home/Login/login - btn""))",Chrome 126.0.0.0,,,17-06-2024 14:12:12,17-06-2024 14:12:12,0.439s,PASSED
+delay(2),Chrome 126.0.0.0,,,17-06-2024 14:12:12,17-06-2024 14:12:15,2.148s,PASSED
+"if (verifyElementVisible(findTestObject(""home/Login/Wording Berhasi Login welcom"")))",Chrome 126.0.0.0,,,17-06-2024 14:12:15,17-06-2024 14:12:16,1.005s,PASSED
+"verifyElementText(findTestObject(""home/Item on home/Wording item name - Copy""), titelItem)",Chrome 126.0.0.0,,,17-06-2024 14:12:16,17-06-2024 14:12:16,0.572s,PASSED
+"verifyElementText(findTestObject(""home/Item on home/Wording price - Copy""), price)",Chrome 126.0.0.0,,,17-06-2024 14:12:16,17-06-2024 14:12:16,0.309s,PASSED
+"click(findTestObject(""home/Item on home/Item 1""))",Chrome 126.0.0.0,,,17-06-2024 14:12:16,17-06-2024 14:12:19,2.828s,PASSED
+"verifyMatch(getText(findTestObject(""home/item when order/Wording item name"")), titelItem, false)",Chrome 126.0.0.0,,,17-06-2024 14:12:19,17-06-2024 14:12:20,1.120s,PASSED
+"verifyMatch(getText(findTestObject(""home/item when order/Wording price"")), priceOrder, false)",Chrome 126.0.0.0,,,17-06-2024 14:12:20,17-06-2024 14:12:21,0.400s,PASSED
+"click(findTestObject(""home/Item when order/btn order""))",Chrome 126.0.0.0,,,17-06-2024 14:12:21,17-06-2024 14:12:21,0.374s,PASSED
+delay(1),Chrome 126.0.0.0,,,17-06-2024 14:12:21,17-06-2024 14:12:22,1.019s,PASSED
+if (waitForAlert(1)),Chrome 126.0.0.0,,,17-06-2024 14:12:22,17-06-2024 14:12:23,0.293s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,17-06-2024 14:12:23,17-06-2024 14:12:24,1.465s,PASSED

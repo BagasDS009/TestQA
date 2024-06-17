@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="addProduk" time="35.449" tests="1" failures="0" errors="0">
+   <testsuite name="addProduk" tests="1" failures="0" errors="0" time="35.449" skipped="0" timestamp="17-06-2024T14:11:49" hostname="Bagas Dwi Saputra - LAPTOP-SQP5LMI4" id="Test Suites/addProduk">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Bagas Dwi Saputra\\Katalon Studio\\My First Web UI Project (1)\\Reports\\20240617_141122\\addProduk\\20240617_141122"/>
+         <property name="logFiles" value="C:\\Users\\Bagas Dwi Saputra\\Katalon Studio\\My First Web UI Project (1)\\Reports\\20240617_141122\\addProduk\\20240617_141122\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Bagas Dwi Saputra - LAPTOP-SQP5LMI4"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.168"/>
+         <property name="sessionId" value="39ff23fe80570f14443ad4dff422006f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/add Produk/TC009" time="34.077" classname="Test Cases/add Produk/TC009" status="PASSED">
+         <system-out><![CDATA[17-06-2024T14:11:50 - [TEST_CASE][PASSED] - Test Cases/add Produk/TC009: Test Cases/add Produk/TC009
+
+17-06-2024T14:11:53 - [TEST_STEP][PASSED] - openBrowser(BaseUrl): Browser is opened with url: 'https://www.demoblaze.com/'
+
+17-06-2024T14:11:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-06-2024T14:11:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-06-2024T14:12:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.demoblaze.com/'
+
+17-06-2024T14:12:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("home/Login/login"), 0): Object 'Object Repository/home/Login/login' is visible
+
+17-06-2024T14:12:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-06-2024T14:12:10 - [MESSAGE][PASSED] - Object 'Object Repository/home/Login/login' is visible
+
+17-06-2024T14:12:10 - [TEST_STEP][PASSED] - click(findTestObject("home/Login/login")): Object: 'Object Repository/home/Login/login' is clicked on
+
+17-06-2024T14:12:10 - [MESSAGE][PASSED] - Object: 'Object Repository/home/Login/login' is clicked on
+
+17-06-2024T14:12:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("home/Login/Wording login"), wordinglogin): Actual text and expected text of test object 'Object Repository/home/Login/Wording login' are matched.
+
+17-06-2024T14:12:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/home/Login/Wording login' are matched.
+
+17-06-2024T14:12:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("home/Login/login - username"), "123"): Keys '123' sent to object: 'Object Repository/home/Login/login - username'
+
+17-06-2024T14:12:11 - [MESSAGE][PASSED] - Keys '123' sent to object: 'Object Repository/home/Login/login - username'
+
+17-06-2024T14:12:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("home/Login/login - pass"), "123"): Keys '123' sent to object: 'Object Repository/home/Login/login - pass'
+
+17-06-2024T14:12:12 - [MESSAGE][PASSED] - Keys '123' sent to object: 'Object Repository/home/Login/login - pass'
+
+17-06-2024T14:12:12 - [TEST_STEP][PASSED] - click(findTestObject("home/Login/login - btn")): Object: 'Object Repository/home/Login/login - btn' is clicked on
+
+17-06-2024T14:12:12 - [MESSAGE][PASSED] - Object: 'Object Repository/home/Login/login - btn' is clicked on
+
+17-06-2024T14:12:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+17-06-2024T14:12:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+17-06-2024T14:12:15 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("home/Login/Wording Berhasi Login welcom"))): null
+
+17-06-2024T14:12:15 - [MESSAGE][PASSED] - Object 'Object Repository/home/Login/Wording Berhasi Login welcom' is visible
+
+17-06-2024T14:12:15 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("home/Login/Wording Berhasi Login welcom")), verivikasiLogin, false): Actual text 'Welcome 123' and expected text 'Welcome 123' are matched 
+
+17-06-2024T14:12:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/home/Login/Wording Berhasi Login welcom' is: 'Welcome 123'
+
+17-06-2024T14:12:16 - [MESSAGE][PASSED] - Actual text 'Welcome 123' and expected text 'Welcome 123' are matched 
+
+17-06-2024T14:12:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("home/Item on home/Wording item name - Copy"), titelItem): Actual text and expected text of test object 'Object Repository/home/Item on home/Wording item name - Copy' are matched.
+
+17-06-2024T14:12:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/home/Item on home/Wording item name - Copy' are matched.
+
+17-06-2024T14:12:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("home/Item on home/Wording price - Copy"), price): Actual text and expected text of test object 'Object Repository/home/Item on home/Wording price - Copy' are matched.
+
+17-06-2024T14:12:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/home/Item on home/Wording price - Copy' are matched.
+
+17-06-2024T14:12:16 - [TEST_STEP][PASSED] - click(findTestObject("home/Item on home/Item 1")): Object: 'Object Repository/home/Item on home/Item 1' is clicked on
+
+17-06-2024T14:12:19 - [MESSAGE][PASSED] - Object: 'Object Repository/home/Item on home/Item 1' is clicked on
+
+17-06-2024T14:12:19 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("home/item when order/Wording item name")), titelItem, false): Actual text 'Samsung galaxy s6' and expected text 'Samsung galaxy s6' are matched 
+
+17-06-2024T14:12:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/home/item when order/Wording item name' is: 'Samsung galaxy s6'
+
+17-06-2024T14:12:20 - [MESSAGE][PASSED] - Actual text 'Samsung galaxy s6' and expected text 'Samsung galaxy s6' are matched 
+
+17-06-2024T14:12:20 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("home/item when order/Wording price")), priceOrder, false): Actual text '$360 *includes tax' and expected text '$360 *includes tax' are matched 
+
+17-06-2024T14:12:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/home/item when order/Wording price' is: '$360 *includes tax'
+
+17-06-2024T14:12:21 - [MESSAGE][PASSED] - Actual text '$360 *includes tax' and expected text '$360 *includes tax' are matched 
+
+17-06-2024T14:12:21 - [TEST_STEP][PASSED] - click(findTestObject("home/Item when order/btn order")): Object: 'Object Repository/home/Item when order/btn order' is clicked on
+
+17-06-2024T14:12:21 - [MESSAGE][PASSED] - Object: 'Object Repository/home/Item when order/btn order' is clicked on
+
+17-06-2024T14:12:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+17-06-2024T14:12:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+17-06-2024T14:12:22 - [TEST_STEP][PASSED] - if (waitForAlert(1)): null
+
+17-06-2024T14:12:22 - [MESSAGE][PASSED] - Alert is present after 1 second(s).
+
+17-06-2024T14:12:22 - [TEST_STEP][PASSED] - verifyMatch(getAlertText(), productAdd, false): Actual text 'Product added.' and expected text 'Product added.' are matched 
+
+17-06-2024T14:12:22 - [MESSAGE][PASSED] - Get alert text successfully: 'Product added.'
+
+17-06-2024T14:12:22 - [MESSAGE][PASSED] - Actual text 'Product added.' and expected text 'Product added.' are matched 
+
+17-06-2024T14:12:22 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+17-06-2024T14:12:23 - [MESSAGE][PASSED] - Alert accepted
+
+17-06-2024T14:12:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-06-2024T14:12:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-06-2024T14:11:49 - [TEST_SUITE][PASSED] - addProduk: Test Cases/add Produk/TC009]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
